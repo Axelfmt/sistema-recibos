@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.*?>
+<fx:root prefHeight="20.0" prefWidth="480.0" spacing="5.4" type="HBox" xmlns="http://javafx.com/javafx"
+         xmlns:fx="http://javafx.com/fxml">
+    <children>
+        <Label fx:id="dia" alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="9.0"
+               prefWidth="15.0" text="30">
+            <font>
+                <Font name="Arial" size="8"/>
+            </font>
+        </Label>
+        <Label fx:id="vehiculo" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+               minWidth="-Infinity" prefHeight="9.0" prefWidth="147.0" text="CHEVROLET CHEYENNE AMARILLO">
+            <font>
+                <Font name="Arial" size="8"/>
+            </font>
+        </Label>
+        <Label fx:id="placas" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+               minWidth="-Infinity" prefHeight="9.0" prefWidth="56.0" text="SD-SD-SD-SD">
+            <font>
+                <Font name="Arial" size="8"/>
+            </font>
+        </Label>
+        <Label fx:id="tarifa" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity"
+               minHeight="-Infinity" minWidth="-Infinity" prefHeight="9.0" prefWidth="48.0" text="\$130,700.00">
+            <font>
+                <Font name="Arial" size="8"/>
+            </font>
+        </Label>
+        <Label fx:id="cliente" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+               minWidth="-Infinity" prefHeight="9.0" prefWidth="216.0" text="ALEJANDRO FRANCISCO MARRUENDA HERNANDEZ">
+            <font>
+                <Font name="Arial" size="8"/>
+            </font>
+        </Label>
+    </children>
+</fx:root>

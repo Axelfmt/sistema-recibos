@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="amt.software.vistacontrolador.ActualizarEstacionamiento">
+    <headerText>Introduce nuevo nombre</headerText>
+    <content>
+        <GridPane vgap="10" hgap="10">
+            <Label text="Estacionamiento:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <ComboBox fx:id="comboBox" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+            <Label text="Nuevo:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <TextField fx:id="textField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+        </GridPane>
+    </content>
+</DialogPane>

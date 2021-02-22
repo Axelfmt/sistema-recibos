@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane maxHeight="-Infinity" maxWidth="825.0" minHeight="200.0" minWidth="825.0" prefHeight="263.0"
+            prefWidth="825.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="amt.software.vistacontrolador.NuevaClausula">
+    <headerText>Escriba nueva cláusula</headerText>
+    <content>
+        <BorderPane>
+            <top>
+                <GridPane>
+                    <Label text="Nombre de Cláusula: " GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                    <TextField fx:id="textField" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+                    <BorderPane.margin>
+                        <Insets bottom="10.0"/>
+                    </BorderPane.margin>
+                    <columnConstraints>
+                        <ColumnConstraints/>
+                        <ColumnConstraints/>
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints/>
+                    </rowConstraints>
+                </GridPane>
+            </top>
+            <center>
+                <TextArea fx:id="clause" minHeight="171" minWidth="480" style="-fx-font-size: 10" wrapText="true"/>
+            </center>
+        </BorderPane>
+    </content>
+</DialogPane>

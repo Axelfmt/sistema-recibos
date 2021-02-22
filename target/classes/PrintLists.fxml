@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="amt.software.vistacontrolador.PrintLists">
+
+    <headerText>Seleccione un estacionamiento:</headerText>
+    <content>
+        <GridPane vgap="10" hgap="10">
+            <Label text="Estacionamiento:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <ComboBox fx:id="comboBoxEst" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+            <Label text="Mes:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <ComboBox fx:id="comboBoxMes" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+        </GridPane>
+    </content>
+</DialogPane>

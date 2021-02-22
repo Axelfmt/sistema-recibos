@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="ventanaPrincipal" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="amt.software.vistacontrolador.ControladorPrincipal">
+    <top>
+        <MenuBar>
+            <menus>
+                <Menu text="Archivo">
+                    <items>
+                        <Menu text="Nuevo">
+                            <items>
+                                <MenuItem onAction="#nuevoEstacionamiento" text="Estacionamiento" />
+                                <MenuItem onAction="#nuevoRegistro" text="Registro" />
+                            </items>
+                        </Menu>
+                        <Menu text="Actualizar">
+                            <items>
+                                <MenuItem onAction="#actualizaEstacionamiento" text="Estacionamiento" />
+                                <MenuItem onAction="#actualizarTarifas" text="tarifas" />
+                            </items>
+                        </Menu>
+                        <Menu text="Borrar">
+                            <items>
+                                <MenuItem onAction="#eliminaEstacionamiento" text="Estacionamiento" />
+                            </items>
+                        </Menu>
+                        <MenuItem onAction="#salir" text="Salir" />
+                    </items>
+                </Menu>
+                <Menu text="Impresión">
+                    <items>
+                        <MenuItem onAction="#printListas" text="Listas" />
+                        <MenuItem onAction="#printClauses" text="Cláusulas" />
+                    </items>
+                </Menu>
+                <Menu text="Cláusulas">
+                    <items>
+                        <MenuItem onAction="#nuevaClausula" text="Nueva" />
+                        <MenuItem onAction="#actualizaClausula" text="Actualizar" />
+                        <MenuItem onAction="#eliminaClausula" text="Eliminar" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <left>
+        <VBox>
+            <padding>
+                <Insets bottom="20.0" top="8.0" />
+            </padding>
+            <ListView fx:id="listViewEstacionamientos" VBox.vgrow="ALWAYS">
+                <VBox.margin>
+                    <Insets bottom="1.0" top="12.0" />
+                </VBox.margin>
+            </ListView>
+        </VBox>
+    </left>
+    <center>
+        <VBox prefWidth="482.0">
+            <BorderPane prefHeight="15.0" prefWidth="200.0">
+                <VBox.margin>
+                    <Insets top="-1.0" />
+                </VBox.margin>
+                <center>
+                    <Label fx:id="estacionamientoId" alignment="BOTTOM_CENTER" contentDisplay="TOP" minHeight="20.0" minWidth="400.0" prefHeight="53.0" prefWidth="37.0" style="-fx-font-weight: 700;" text="Label" BorderPane.alignment="TOP_CENTER">
+                        <BorderPane.margin>
+                            <Insets top="1.0" />
+                        </BorderPane.margin>
+                        <font>
+                            <Font name="Arial" size="14.0" />
+                        </font>
+                    </Label>
+                </center>
+            </BorderPane>
+            <TableView fx:id="tableViewEstacionamiento" prefWidth="482.0" VBox.vgrow="ALWAYS">
+                <columnResizePolicy>
+                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                </columnResizePolicy>
+                <columns>
+                    <TableColumn text="Día">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="dia" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn text="Cliente">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="cliente" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn text="Vehiculo">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="vehiculo" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn text="Placas">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="placas" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn text="Tarifa">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="tarifa" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn text="Cláusula">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="clausula" />
+                        </cellValueFactory>
+                    </TableColumn>
+                </columns>
+                <VBox.margin>
+                    <Insets />
+                </VBox.margin>
+            </TableView>
+            <AnchorPane prefHeight="21.0" prefWidth="482.0">
+                <children>
+                    <Label layoutY="2.0" text="Total Clientes:" />
+                    <Label fx:id="totalCientes" contentDisplay="CENTER" layoutX="94.0" layoutY="2.0" prefHeight="17.0" prefWidth="78.0" text="0" />
+               <Label layoutX="205.0" layoutY="2.0" text="Seleccionados:" />
+               <Label fx:id="seleccionados" layoutX="303.0" layoutY="2.0" prefHeight="16.0" prefWidth="113.0" text="0" />
+                </children>
+            </AnchorPane>
+        </VBox>
+    </center>
+</BorderPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane fx:id="dialogo" maxWidth="825.0" minHeight="200.0" minWidth="825.0" prefWidth="825.0"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml" fx:controller="amt.software.vistacontrolador.ActualizarClausula">
+    <headerText>Seleccione una clausula</headerText>
+    <content>
+        <BorderPane>
+            <top>
+                <GridPane hgap="10" vgap="10">
+                    <Label text="Clausula: " GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                    <ComboBox fx:id="comboBox" onAction="#update" prefHeight="25.0" prefWidth="196.0"
+                              GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+                    <Label text="Nombre de Cláusula: " GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+                    <TextField fx:id="textField" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                    <BorderPane.margin>
+                        <Insets bottom="10.0"/>
+                    </BorderPane.margin>
+                    <columnConstraints>
+                        <ColumnConstraints/>
+                        <ColumnConstraints/>
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints/>
+                        <RowConstraints/>
+                    </rowConstraints>
+                </GridPane>
+            </top>
+            <center>
+                <TextArea fx:id="clause" minHeight="171" minWidth="480" style="-fx-font-size: 10" wrapText="true"/>
+            </center>
+        </BorderPane>
+    </content>
+</DialogPane>

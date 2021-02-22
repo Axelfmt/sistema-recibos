@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="684.0"
+         prefWidth="502.0" type="VBox" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+    <children>
+        <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="126.0" text="LISTAS RECIBOS">
+            <VBox.margin>
+                <Insets left="177.0"/>
+            </VBox.margin>
+            <font>
+                <Font name="Arial Bold" size="10.0"/>
+            </font>
+        </Label>
+        <HBox prefHeight="13.0" prefWidth="501.0">
+            <children>
+                <Label text="ESTACIONAMIENTO: ">
+                    <font>
+                        <Font name="Arial Bold" size="10.0"/>
+                    </font>
+                </Label>
+                <Label fx:id="estacionamiento" text="SAN JUAN DE ARAGÓN #57">
+                    <font>
+                        <Font name="Arial Bold" size="10.0"/>
+                    </font>
+                </Label>
+            </children>
+        </HBox>
+        <HBox prefHeight="19.0" prefWidth="501.0">
+            <children>
+                <Label text="MES: ">
+                    <font>
+                        <Font name="Arial Bold" size="10.0"/>
+                    </font>
+                </Label>
+                <Label fx:id="mes" text="SEPTIEMBRE">
+                    <font>
+                        <Font name="Arial Bold" size="10.0"/>
+                    </font>
+                </Label>
+            </children>
+        </HBox>
+        <HBox prefHeight="15.0" prefWidth="577.0" spacing="5.4">
+            <children>
+                <Label alignment="CENTER" prefHeight="10.0" prefWidth="15.0" text="DÍA">
+                    <font>
+                        <Font name="Arial Bold" size="8.5"/>
+                    </font>
+                </Label>
+                <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                       minWidth="-Infinity" prefWidth="147.0" text="AUTO">
+                    <font>
+                        <Font name="Arial Bold" size="8.5"/>
+                    </font>
+                </Label>
+                <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                       minWidth="-Infinity" prefWidth="56.0" text="PLACAS">
+                    <font>
+                        <Font name="Arial Bold" size="8.5"/>
+                    </font>
+                </Label>
+                <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                       minWidth="-Infinity" prefWidth="48.0" text="CANTIDAD">
+                    <font>
+                        <Font name="Arial Bold" size="8.5"/>
+                    </font>
+                </Label>
+                <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                       minWidth="-Infinity" prefWidth="216.0" text="NOMBRE">
+                    <font>
+                        <Font name="Arial Bold" size="8.5"/>
+                    </font>
+                </Label>
+            </children>
+        </HBox>
+        <Line endX="500.0" strokeWidth="4.0">
+            <VBox.margin>
+                <Insets bottom="5.0"/>
+            </VBox.margin>
+        </Line>
+    </children>
+</fx:root>

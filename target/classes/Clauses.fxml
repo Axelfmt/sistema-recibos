@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="171.0"
+         prefWidth="480.0" type="AnchorPane" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+    <children>
+        <Label layoutX="12.0" text="LA ENTREGA Y ACEPTACIÓN DEL PRESENTE, IMPLICA LA ACEPTACIÓN DE LAS SIGUIENTES:">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="181.0" layoutY="8.0" text="C  L  Á  U  S  U  L  A  S">
+            <font>
+                <Font name="System Bold" size="11.0"/>
+            </font>
+        </Label>
+        <Label layoutY="22.0" text="PRIMERA.-">
+            <font>
+                <Font name="System Bold" size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="22.0"
+               text="EL USUARIO DEL SERVICIO ACEPTA QUE CUALQUIER DAÑO OCASIONADO POR EL PERSONAL DEL ESTACIONAMIENTO, SERA REPARADO">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="29.0"
+               text="EN LOS TALLERES DE DICHO ESTACIONAMIENTO Y A ENTERA SATISFACCIÓN DEL USUARIO.">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutY="36.0" text="SEGUNDA.-">
+            <font>
+                <Font name="System Bold" size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="36.0"
+               text="EL PRESTADOR DEL SERVICIO SE OBLIGA A RESPONDER POR EL EXTRAVÍO DE LOS OBJETOS DEJADOS EN EL INTERIOR DE LOS AUTOMOVILES">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="42.0" text="SIEMPRE Y CUANDO HAYAN SIDO REPORTADOS FÍSICAMENTE AL ENCARGADO.">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutY="49.0" text="TERCERA.-">
+            <font>
+                <Font name="System Bold" size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="49.0"
+               text="EL PRESTADOR DEL SERVICIO AVISA A LOS USUARIOS QUE TIENEN CONTRATADA UNA PÓLIZA DE SEGURO DE RESPONSABILIDAD CIVIL CON">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="55.0"
+               text="UN SUBLÍMITE HASTA POR LA CANTIDAD DE $200,000.00 (DOSCIENTOS MIL PESOS 00/100 M.N.) POR VEHÍCULO, SI ESTE EXCEDE  DE DICHA">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="61.0"
+               text="CANTIDAD, EL USUARIO DEL SERVICIO DEL ESTACIONAMIENTO ASUME LA RESPONSABILIDAD POR EL EXCEDENTE, ASI COMO DEL">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutY="74.0" text="CUARTA.-">
+            <font>
+                <Font name="System Bold" size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="74.0"
+               text="EL VEHÍCULO SERA ENTREGADO AL PORTADOR DEL PRESENTE BOLETO Y PARA CASO DE EXTRAVÍO, EL USUARIO DEBERÁ ACREDITAR LA">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="80.0"
+               text="PROPIEDAD DEL VEHÍCULO, PAGANDO LA CANTIDAD QUE RESULTARE CONFORME LA TARIFA PREESTABLECIDA.">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutY="87.0" text="QUINTA.-">
+            <font>
+                <Font name="System Bold" size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="87.0" text="EL PRESTADOR DEL SERVICIO NO SE HACE RESPONSABLE POR:">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutY="93.0" text="A) INCENDIO MOTIVADO">
+            <font>
+                <Font name="System Bold" size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="85.0" layoutY="93.0" text="POR DEFICIENCIA DE LA INSTALACIÓN ELÉCTRICA O FALLA DEL CARBURADOR.">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutY="128.0" text="SÉPTIMA.-">
+            <font>
+                <Font name="System Bold" size="7"/>
+            </font>
+        </Label>
+        <Label layoutY="100.0" text="B) DESPERFECTOS MECÁNICOS">
+            <font>
+                <Font name="System Bold" size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="104.0" layoutY="100.0"
+               text="Y/O ELÉCTRICOS NO IMPUTABLES A SU PERSONAL POR PIEZAS SENTIDAS O GASTADAS">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutY="107.0" text="C) SINIESTROS OCASIONADOS">
+            <font>
+                <Font name="System Bold" size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="103.0" layoutY="107.0"
+               text="POR INUNDACIONES, INCENDIO, TEMBLORES, O TERREMOTOS, ALBOROTOS POPULARES O ESTUDIANTES O CUALQUIER">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="113.0" text="OTRO QUE  NO SEA IMPUTABLE.">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutY="121.0" text="SEXTA.-">
+            <font>
+                <Font name="System Bold" size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="121.0"
+               text="EL DEDUCIBLE LO PAGA EL CLIENTE AL 100%, QUE MARQUE A LA ASEGURADORA.">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="128.0"
+               text="EL PRESTADOR SE DESLINDA DE CUALQUIER RESPONSABILIDAD CIVIL, PENAL O DE CUALQUIER OTRA ÍNDOLE CUANDO EL VEHÍCULO SEA">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="135.0" text="IRREGULAR O ESTE REPORTADO COMO ROBADO.">
+            <font>
+                <Font size="7"/>
+            </font>
+        </Label>
+        <Label layoutX="42.5" layoutY="145.0"
+               text="NOTA IMPORTANTE: EL USUARIO QUE NO ESTE DE ACUERDO CON LAS CLÁUSULAS QUE ANTECEDEN, DEBERÁ">
+            <font>
+                <Font size="8.0"/>
+            </font>
+        </Label>
+        <Label layoutX="164.5" layoutY="154.0" text="RETIRAR SU VEHÍCULO INMEDIATAMENTE">
+            <font>
+                <Font size="8.0"/>
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="67.0" text="CORRESPONDIENTE DEDUCIBLE, PARA EL CASO DE SURGIR ALGÚN SINIESTRO.">
+            <font>
+                <Font size="7.0"/>
+            </font>
+        </Label>
+        <Line endX="455.0" layoutX="21.0" layoutY="171.0" scaleY="0.25" startX="-25.0"/>
+        <Line endX="455.0" layoutX="21.0" layoutY="-2.0" startX="-25.0"/>
+    </children>
+</fx:root>
